@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="../my_forms/script.js"></script>
+</head>
+<body>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Please enter your name" id="name">
+
+        <br>
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="number" placeholder="Please enter your age" id="age">
+
+        <br>
+        <br>
+
+        <label for="color">Color:</label>
+        <input type="color" id="color">
+
+        <br>
+        <br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date">
+
+        <br>
+        <br>
+
+        <label for="pin">PIN:</label>
+        <input type="password" id="pin">
+
+        <br>
+        <br>
+
+        <label for="check">я согласен на обработку данных</label>
+        <input type="checkbox" id="check">
+
+        <br>
+        <br>
+
+        <input type="button" value="Опубликовать данные ?" onclick="publishData()">
+
+        <br>
+        <br>
+
+        <input type="reset" value="Очистить все поля ?">
+
+    </form>
+
+    <p id="p">
+        Ваши данные отобразятся здесь!
+    </p>
+
+</body>
+</html>
